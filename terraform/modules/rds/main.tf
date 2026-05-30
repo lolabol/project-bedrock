@@ -56,7 +56,7 @@ resource "aws_secretsmanager_secret_version" "db_password" {
   secret_id = aws_secretsmanager_secret.db_password.id
   secret_string = jsonencode({
     password = var.db_password
-    username = "admin"
+    username = "dbadmin"
   })
 }
 
@@ -97,7 +97,7 @@ resource "aws_db_instance" "postgresql" {
   storage_type      = "gp2"
 
   db_name  = "retailstore"
-  username = "admin"
+  username = "dbadmin"
   password = var.db_password
 
   db_subnet_group_name   = aws_db_subnet_group.main.name
