@@ -1,0 +1,4 @@
+aws_region   = "us-east-1"
+project_name = "project-bedrock"
+student_id   = "alt-soe-025-5119"
+db_password  = "your-secure-password-here"
