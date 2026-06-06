@@ -125,3 +125,4 @@ aws logs tail /aws/lambda/bedrock-asset-processor --since 5m
 kubectl delete -f k8s/
 cd terraform
 terraform destroy -auto-approve -var="db_password=Bedrock2025Secure"
+ 

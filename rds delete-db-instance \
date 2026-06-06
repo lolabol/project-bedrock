@@ -1,0 +1,102 @@
+{
+    "DBInstance": {
+        "DBInstanceIdentifier": "project-bedrock-mysql",
+        "DBInstanceClass": "db.t3.micro",
+        "Engine": "mysql",
+        "DBInstanceStatus": "deleting",
+        "MasterUsername": "admin",
+        "DBName": "retailstore",
+        "Endpoint": {
+            "Address": "project-bedrock-mysql.c096iescirdl.us-east-1.rds.amazonaws.com",
+            "Port": 3306,
+            "HostedZoneId": "Z2R2ITUGPM61AM"
+        },
+        "AllocatedStorage": 20,
+        "InstanceCreateTime": "2026-05-30T09:54:50.764000+00:00",
+        "PreferredBackupWindow": "04:16-04:46",
+        "BackupRetentionPeriod": 0,
+        "DBSecurityGroups": [],
+        "VpcSecurityGroups": [
+            {
+                "VpcSecurityGroupId": "sg-0fa982dbe0c01e7e9",
+                "Status": "active"
+            }
+        ],
+        "DBParameterGroups": [
+            {
+                "DBParameterGroupName": "default.mysql8.0",
+                "ParameterApplyStatus": "in-sync"
+            }
+        ],
+        "AvailabilityZone": "us-east-1a",
+        "DBSubnetGroup": {
+            "DBSubnetGroupName": "project-bedrock-db-subnet-group",
+            "DBSubnetGroupDescription": "Managed by Terraform",
+            "VpcId": "vpc-0436fee18eba2b995",
+            "SubnetGroupStatus": "Complete",
+            "Subnets": [
+                {
+                    "SubnetIdentifier": "subnet-0251d9b1546bc9bee",
+                    "SubnetAvailabilityZone": {
+                        "Name": "us-east-1a"
+                    },
+                    "SubnetOutpost": {},
+                    "SubnetStatus": "Active"
+                },
+                {
+                    "SubnetIdentifier": "subnet-00454ac9d31a1268e",
+                    "SubnetAvailabilityZone": {
+                        "Name": "us-east-1b"
+                    },
+                    "SubnetOutpost": {},
+                    "SubnetStatus": "Active"
+                }
+            ]
+        },
+        "PreferredMaintenanceWindow": "sun:05:58-sun:06:28",
+        "UpgradeRolloutOrder": "second",
+        "PendingModifiedValues": {},
+        "MultiAZ": false,
+        "EngineVersion": "8.0.45",
+        "AutoMinorVersionUpgrade": true,
+        "ReadReplicaDBInstanceIdentifiers": [],
+        "LicenseModel": "general-public-license",
+        "StorageThroughput": 0,
+        "OptionGroupMemberships": [
+            {
+                "OptionGroupName": "default:mysql-8-0",
+                "Status": "in-sync"
+            }
+        ],
+        "PubliclyAccessible": false,
+        "StorageType": "gp2",
+        "DbInstancePort": 0,
+        "StorageEncrypted": false,
+        "DbiResourceId": "db-NDSSY32GQBHOTFZ2KADRRKGNOU",
+        "CACertificateIdentifier": "",
+        "DomainMemberships": [],
+        "CopyTagsToSnapshot": false,
+        "MonitoringInterval": 0,
+        "DBInstanceArn": "arn:aws:rds:us-east-1:625272706271:db:project-bedrock-mysql",
+        "IAMDatabaseAuthenticationEnabled": false,
+        "DatabaseInsightsMode": "standard",
+        "PerformanceInsightsEnabled": false,
+        "DeletionProtection": false,
+        "AssociatedRoles": [],
+        "TagList": [
+            {
+                "Key": "Project",
+                "Value": "karatu-2025-capstone"
+            },
+            {
+                "Key": "Name",
+                "Value": "project-bedrock-mysql"
+            }
+        ],
+        "CustomerOwnedIpEnabled": false,
+        "NetworkType": "IPV4",
+        "BackupTarget": "region",
+        "DedicatedLogVolume": false,
+        "EngineLifecycleSupport": "open-source-rds-extended-support"
+    }
+}
