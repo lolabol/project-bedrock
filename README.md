@@ -7,7 +7,7 @@ retail microservices application. Built as part of the Karatu 2025 Capstone.
 ## Live Application
 | Service | URL |
 |---------|-----|
-| Retail Store | http://k8s-retailap-retailst-17d19cf248-496091647.us-east-1.elb.amazonaws.com |
+| Retail Store | http://k8s-retailap-retailst-17d19cf248-1054610563.us-east-1.elb.amazonaws.com|
 
 ## Architecture
 - **VPC**: `project-bedrock-vpc` with public/private subnets across 2 AZs
